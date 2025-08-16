@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI", "MedicalUI.csproj", "{34C3F5A8-B0DA-4EEB-AA27-9177C6437DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Domain", "..\MedicalReport.Domain\MedicalUI.Domain.csproj", "{E8564736-5279-4A58-BB7D-2E1F29B44623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D3934DBA-35AC-4640-A3FB-3EB6850B832B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Services", "..\MedicalReport.Services\MedicalUI.Services.csproj", "{81208D69-23B2-4A9C-8E19-5C171D29EE7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxies", "Proxies", "{219DF0CB-F694-4D36-A4D7-062E1769AA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Proxies", "..\MedicalReport.Proxies\MedicalUI.Proxies.csproj", "{8209A34B-E07A-4D44-8AD0-3C9E9AC7EA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Services.Abstractions", "..\MedicalReport.Services.Abstractions\MedicalUI.Services.Abstractions.csproj", "{183A23E2-1DD5-49AF-8818-0F9B6B587BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Services.DI", "..\MedicalReport.Services.DI\MedicalUI.Services.DI.csproj", "{148B461B-18C7-4203-8AD1-B5046D5F777A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Proxies.Abstractions", "..\MedicalUI.Proxies.Abstractions\MedicalUI.Proxies.Abstractions.csproj", "{99A77D27-9460-43A0-BB63-075C879C70E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalUI.Proxies.DI", "..\MedicalUI.Proxies.DI\MedicalUI.Proxies.DI.csproj", "{41F296B5-265D-4A8A-988B-0475AFA528AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34C3F5A8-B0DA-4EEB-AA27-9177C6437DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C3F5A8-B0DA-4EEB-AA27-9177C6437DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C3F5A8-B0DA-4EEB-AA27-9177C6437DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C3F5A8-B0DA-4EEB-AA27-9177C6437DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8564736-5279-4A58-BB7D-2E1F29B44623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8564736-5279-4A58-BB7D-2E1F29B44623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8564736-5279-4A58-BB7D-2E1F29B44623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8564736-5279-4A58-BB7D-2E1F29B44623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81208D69-23B2-4A9C-8E19-5C171D29EE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81208D69-23B2-4A9C-8E19-5C171D29EE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81208D69-23B2-4A9C-8E19-5C171D29EE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81208D69-23B2-4A9C-8E19-5C171D29EE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8209A34B-E07A-4D44-8AD0-3C9E9AC7EA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8209A34B-E07A-4D44-8AD0-3C9E9AC7EA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8209A34B-E07A-4D44-8AD0-3C9E9AC7EA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8209A34B-E07A-4D44-8AD0-3C9E9AC7EA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183A23E2-1DD5-49AF-8818-0F9B6B587BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183A23E2-1DD5-49AF-8818-0F9B6B587BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183A23E2-1DD5-49AF-8818-0F9B6B587BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183A23E2-1DD5-49AF-8818-0F9B6B587BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148B461B-18C7-4203-8AD1-B5046D5F777A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148B461B-18C7-4203-8AD1-B5046D5F777A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148B461B-18C7-4203-8AD1-B5046D5F777A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148B461B-18C7-4203-8AD1-B5046D5F777A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A77D27-9460-43A0-BB63-075C879C70E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A77D27-9460-43A0-BB63-075C879C70E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A77D27-9460-43A0-BB63-075C879C70E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A77D27-9460-43A0-BB63-075C879C70E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F296B5-265D-4A8A-988B-0475AFA528AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F296B5-265D-4A8A-988B-0475AFA528AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F296B5-265D-4A8A-988B-0475AFA528AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F296B5-265D-4A8A-988B-0475AFA528AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8564736-5279-4A58-BB7D-2E1F29B44623} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{81208D69-23B2-4A9C-8E19-5C171D29EE7B} = {D3934DBA-35AC-4640-A3FB-3EB6850B832B}
+		{8209A34B-E07A-4D44-8AD0-3C9E9AC7EA10} = {219DF0CB-F694-4D36-A4D7-062E1769AA03}
+		{183A23E2-1DD5-49AF-8818-0F9B6B587BC4} = {D3934DBA-35AC-4640-A3FB-3EB6850B832B}
+		{148B461B-18C7-4203-8AD1-B5046D5F777A} = {D3934DBA-35AC-4640-A3FB-3EB6850B832B}
+		{99A77D27-9460-43A0-BB63-075C879C70E2} = {219DF0CB-F694-4D36-A4D7-062E1769AA03}
+		{41F296B5-265D-4A8A-988B-0475AFA528AC} = {219DF0CB-F694-4D36-A4D7-062E1769AA03}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DEB0A04-D410-4494-9B78-985B406A864C}
+	EndGlobalSection
+EndGlobal
